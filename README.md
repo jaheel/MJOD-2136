@@ -25,6 +25,8 @@ MJOD-Net: a new light weight model based on YOLOF architecture implemented by MM
    > datasets(Google Drive): https://drive.google.com/drive/folders/1kfLVlEjWWPz9SijYhO-M9zHNV4n8Xema?usp=sharing
    >
    > datasets(Baidu Disk): https://pan.baidu.com/s/1TAihGvfxj-jwwQl0qaix9g - co4p
+   >
+   > pth(Baidu Disk): https://pan.baidu.com/s/1PNt5PqzM_yx3pNO8yIMBHQ - uzqn
 
 
 
@@ -41,10 +43,11 @@ Before training and testing, the MMDetection environment should be implemented w
 2. To test the MJOD-Net, run following command
 
    ```bash
-   python tools/test.py ${CONFIG_FILE} ${CH}
+   python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE}
    ```
 
-   
+
+
 
 # License
 
